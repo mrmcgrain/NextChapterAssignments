@@ -45,3 +45,10 @@ This log records the prompts and decisions used to build the Week 1 project.
 **Decision:** Add the final approved section, Seek Merlin's Guidance. Include the one call to action, "Request Merlin's Guidance," and use a small JavaScript click message so the button has visible behavior.
 
 **Verification:** The finished page has exactly three sections and one CTA button. JavaScript passed `node --check`, and the local preview returned `200 OK`.
+## 7. Choose deployment path
+
+**Prompt:** "Add in the Prompt Log, we are going to GitHub Pages via Actions."
+
+**Decision:** Use GitHub Pages with GitHub Actions as the deployment path for the finished Week 1 site.
+
+**Verification:** Record the deployment choice now. The actual GitHub Actions workflow will be created and checked in a later step.
