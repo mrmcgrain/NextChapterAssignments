@@ -52,3 +52,10 @@ This log records the prompts and decisions used to build the Week 1 project.
 **Decision:** Use GitHub Pages with GitHub Actions as the deployment path for the finished Week 1 site.
 
 **Verification:** Record the deployment choice now. The actual GitHub Actions workflow will be created and checked in a later step.
+## 8. Add magic button effect
+
+**Prompt:** "When we click the Merlin button have the screen explode with magic, have a ? above the button... are you magical?"
+
+**Decision:** Add the question "Are you magical?" above the existing call-to-action button. Keep one CTA button, and make the click create a short magic burst using vanilla JavaScript and CSS animation.
+
+**Verification:** The page still has exactly three sections and one CTA button. JavaScript passed `node --check`, the click simulation created 42 sparks, and the local preview returned `200 OK`.
