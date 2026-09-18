@@ -66,3 +66,10 @@ This log records the prompts and decisions used to build the Week 1 project.
 **Decision:** Increase the click effect from a small burst to an intentionally oversized spell with 140 sparks, a bright full-screen flash, a shockwave, and a short page shake. Keep the same single CTA button.
 
 **Verification:** Check that the page still has exactly three sections and one CTA button, that JavaScript passes `node --check`, and that the click simulation creates 140 sparks while changing the message.
+## 10. Update magic test copy
+
+**Prompt:** "Change Are you magical to Are you magical? take our simple test simpleton. Center the bottom line as well."
+
+**Decision:** Change the magic question above the button to "Are you magical? Take our simple test, simpleton." Center the message line below the button.
+
+**Verification:** The page still has exactly three sections and one CTA button. The new copy appears above the button, and the bottom message line is centered.
