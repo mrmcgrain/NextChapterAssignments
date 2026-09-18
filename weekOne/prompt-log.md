@@ -59,3 +59,10 @@ This log records the prompts and decisions used to build the Week 1 project.
 **Decision:** Add the question "Are you magical?" above the existing call-to-action button. Keep one CTA button, and make the click create a short magic burst using vanilla JavaScript and CSS animation.
 
 **Verification:** The page still has exactly three sections and one CTA button. JavaScript passed `node --check`, the click simulation created 42 sparks, and the local preview returned `200 OK`.
+## 9. Make the magic bigger
+
+**Prompt:** "Make the magical power at button click much bigger, crazy big and obnoxious."
+
+**Decision:** Increase the click effect from a small burst to an intentionally oversized spell with 140 sparks, a bright full-screen flash, a shockwave, and a short page shake. Keep the same single CTA button.
+
+**Verification:** Check that the page still has exactly three sections and one CTA button, that JavaScript passes `node --check`, and that the click simulation creates 140 sparks while changing the message.
