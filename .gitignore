@@ -1,0 +1,28 @@
+﻿# Credentials and installed dependencies
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+**/auth.json
+**/credentials.json
+**/secrets.json
+**/token.json
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/~$*
+
+# Local Hermes profile and separate application checkout
+/weekTwo/CustomAgent/AgentsCode/
+/weekTwo/CustomAgent/DataFromTestsAndPrompts/application/
+
+# Generated presentation drafts
+/weekTwo/CustomAgent/DataFromTestsAndPrompts/gpttest-presentation/build/candidate.pptx
+/weekTwo/CustomAgent/DataFromTestsAndPrompts/gpttest-presentation/build/*.ndjson
+/weekTwo/CustomAgent/DataFromTestsAndPrompts/gpttest-presentation/build/slide-*.png
+/weekTwo/CustomAgent/DataFromTestsAndPrompts/gpttest-presentation/build/validation*.json
+/weekTwo/CustomAgent/DataFromTestsAndPrompts/gpttest-presentation/output/
+/weekTwo/CustomAgent/DataFromTestsAndPrompts/reports/*.pptx
+!/weekTwo/CustomAgent/DataFromTestsAndPrompts/reports/BoundaryTrace-2-minute-presentation-both-evidence.pptx
