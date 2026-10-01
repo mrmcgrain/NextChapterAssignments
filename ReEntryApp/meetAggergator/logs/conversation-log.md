@@ -1058,3 +1058,5 @@ Curated project for existing origin/main, retaining unrelated parent edits and l
 Typecheck passed; 44 tests passed, seven integration tests skipped. Sandbox blocked writes and lint cache; retry authorized operations elevated.
 ### Next Steps
 Commit curated files, push and verify remote SHA.
+
+Upload completed: b7fd1f278d4647883a70cab0423b5f2d9afb6740 pushed to origin/main and verified with git ls-remote. Client lint passed after elevated retry. Project working tree clean; three pre-existing parent edits retained.
