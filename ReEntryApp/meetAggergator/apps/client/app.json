@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Recovery Meeting Finder",
+    "slug": "recovery-meeting-finder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "package": "com.mrmcgrain.recoverymeetingfinder"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "recoverymeetings",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Use your location only when you choose to find nearby meetings."
+        }
+      ],
+      "expo-build-properties"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8efa8a37-9fff-4b58-b65a-6f3827e6ae2c"
+      }
+    }
+  }
+}
